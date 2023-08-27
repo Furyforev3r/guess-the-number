@@ -26,4 +26,6 @@ def Game(): #defining a function called Game
         Game() #calling the function again
     else:
         print("Goodbye!") #if the user does not want to play again, print this message
-Game() #calling the function to start the game
+
+if __name__ == "__main__":
+    Game() #calling the function to start the game
